@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A66009724DFD005006BD20F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66009624DFD005006BD20F /* AppDelegate.swift */; };
+		0A66009924DFD005006BD20F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66009824DFD005006BD20F /* SceneDelegate.swift */; };
+		0A66009B24DFD005006BD20F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A66009A24DFD005006BD20F /* HomeViewController.swift */; };
+		0A66009E24DFD005006BD20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A66009C24DFD005006BD20F /* Main.storyboard */; };
+		0A6600A024DFD007006BD20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A66009F24DFD007006BD20F /* Assets.xcassets */; };
+		0A6600A324DFD007006BD20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6600A124DFD007006BD20F /* LaunchScreen.storyboard */; };
+		0A6600AE24DFD007006BD20F /* transitLightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6600AD24DFD007006BD20F /* transitLightsTests.swift */; };
+		0A6600B924DFD007006BD20F /* transitLightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6600B824DFD007006BD20F /* transitLightsUITests.swift */; };
+		0A6600C724E0CCC7006BD20F /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6600C624E0CCC7006BD20F /* SecondScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A6600AA24DFD007006BD20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A66008B24DFD005006BD20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A66009224DFD005006BD20F;
+			remoteInfo = transitLights;
+		};
+		0A6600B524DFD007006BD20F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A66008B24DFD005006BD20F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A66009224DFD005006BD20F;
+			remoteInfo = transitLights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A66009324DFD005006BD20F /* transitLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transitLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A66009624DFD005006BD20F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A66009824DFD005006BD20F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0A66009A24DFD005006BD20F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0A66009D24DFD005006BD20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A66009F24DFD007006BD20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6600A224DFD007006BD20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6600A424DFD007006BD20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6600A924DFD007006BD20F /* transitLightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transitLightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6600AD24DFD007006BD20F /* transitLightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitLightsTests.swift; sourceTree = "<group>"; };
+		0A6600AF24DFD007006BD20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6600B424DFD007006BD20F /* transitLightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transitLightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6600B824DFD007006BD20F /* transitLightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitLightsUITests.swift; sourceTree = "<group>"; };
+		0A6600BA24DFD007006BD20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6600C624E0CCC7006BD20F /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A66009024DFD005006BD20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6600A624DFD007006BD20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6600B124DFD007006BD20F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A66008A24DFD005006BD20F = {
+			isa = PBXGroup;
+			children = (
+				0A66009524DFD005006BD20F /* transitLights */,
+				0A6600AC24DFD007006BD20F /* transitLightsTests */,
+				0A6600B724DFD007006BD20F /* transitLightsUITests */,
+				0A66009424DFD005006BD20F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A66009424DFD005006BD20F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A66009324DFD005006BD20F /* transitLights.app */,
+				0A6600A924DFD007006BD20F /* transitLightsTests.xctest */,
+				0A6600B424DFD007006BD20F /* transitLightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A66009524DFD005006BD20F /* transitLights */ = {
+			isa = PBXGroup;
+			children = (
+				0A66009624DFD005006BD20F /* AppDelegate.swift */,
+				0A66009824DFD005006BD20F /* SceneDelegate.swift */,
+				0A66009A24DFD005006BD20F /* HomeViewController.swift */,
+				0A6600C624E0CCC7006BD20F /* SecondScreenViewController.swift */,
+				0A66009C24DFD005006BD20F /* Main.storyboard */,
+				0A66009F24DFD007006BD20F /* Assets.xcassets */,
+				0A6600A124DFD007006BD20F /* LaunchScreen.storyboard */,
+				0A6600A424DFD007006BD20F /* Info.plist */,
+			);
+			path = transitLights;
+			sourceTree = "<group>";
+		};
+		0A6600AC24DFD007006BD20F /* transitLightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6600AD24DFD007006BD20F /* transitLightsTests.swift */,
+				0A6600AF24DFD007006BD20F /* Info.plist */,
+			);
+			path = transitLightsTests;
+			sourceTree = "<group>";
+		};
+		0A6600B724DFD007006BD20F /* transitLightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6600B824DFD007006BD20F /* transitLightsUITests.swift */,
+				0A6600BA24DFD007006BD20F /* Info.plist */,
+			);
+			path = transitLightsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A66009224DFD005006BD20F /* transitLights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6600BD24DFD007006BD20F /* Build configuration list for PBXNativeTarget "transitLights" */;
+			buildPhases = (
+				0A66008F24DFD005006BD20F /* Sources */,
+				0A66009024DFD005006BD20F /* Frameworks */,
+				0A66009124DFD005006BD20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = transitLights;
+			productName = transitLights;
+			productReference = 0A66009324DFD005006BD20F /* transitLights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A6600A824DFD007006BD20F /* transitLightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6600C024DFD007006BD20F /* Build configuration list for PBXNativeTarget "transitLightsTests" */;
+			buildPhases = (
+				0A6600A524DFD007006BD20F /* Sources */,
+				0A6600A624DFD007006BD20F /* Frameworks */,
+				0A6600A724DFD007006BD20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6600AB24DFD007006BD20F /* PBXTargetDependency */,
+			);
+			name = transitLightsTests;
+			productName = transitLightsTests;
+			productReference = 0A6600A924DFD007006BD20F /* transitLightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A6600B324DFD007006BD20F /* transitLightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6600C324DFD007006BD20F /* Build configuration list for PBXNativeTarget "transitLightsUITests" */;
+			buildPhases = (
+				0A6600B024DFD007006BD20F /* Sources */,
+				0A6600B124DFD007006BD20F /* Frameworks */,
+				0A6600B224DFD007006BD20F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6600B624DFD007006BD20F /* PBXTargetDependency */,
+			);
+			name = transitLightsUITests;
+			productName = transitLightsUITests;
+			productReference = 0A6600B424DFD007006BD20F /* transitLightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A66008B24DFD005006BD20F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Cintia Michel";
+				TargetAttributes = {
+					0A66009224DFD005006BD20F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					0A6600A824DFD007006BD20F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0A66009224DFD005006BD20F;
+					};
+					0A6600B324DFD007006BD20F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 0A66009224DFD005006BD20F;
+					};
+				};
+			};
+			buildConfigurationList = 0A66008E24DFD005006BD20F /* Build configuration list for PBXProject "transitLights" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A66008A24DFD005006BD20F;
+			productRefGroup = 0A66009424DFD005006BD20F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A66009224DFD005006BD20F /* transitLights */,
+				0A6600A824DFD007006BD20F /* transitLightsTests */,
+				0A6600B324DFD007006BD20F /* transitLightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A66009124DFD005006BD20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6600A324DFD007006BD20F /* LaunchScreen.storyboard in Resources */,
+				0A6600A024DFD007006BD20F /* Assets.xcassets in Resources */,
+				0A66009E24DFD005006BD20F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6600A724DFD007006BD20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6600B224DFD007006BD20F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A66008F24DFD005006BD20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6600C724E0CCC7006BD20F /* SecondScreenViewController.swift in Sources */,
+				0A66009B24DFD005006BD20F /* HomeViewController.swift in Sources */,
+				0A66009724DFD005006BD20F /* AppDelegate.swift in Sources */,
+				0A66009924DFD005006BD20F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6600A524DFD007006BD20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6600AE24DFD007006BD20F /* transitLightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6600B024DFD007006BD20F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6600B924DFD007006BD20F /* transitLightsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6600AB24DFD007006BD20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A66009224DFD005006BD20F /* transitLights */;
+			targetProxy = 0A6600AA24DFD007006BD20F /* PBXContainerItemProxy */;
+		};
+		0A6600B624DFD007006BD20F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A66009224DFD005006BD20F /* transitLights */;
+			targetProxy = 0A6600B524DFD007006BD20F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A66009C24DFD005006BD20F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A66009D24DFD005006BD20F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A6600A124DFD007006BD20F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6600A224DFD007006BD20F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6600BB24DFD007006BD20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A6600BC24DFD007006BD20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6600BE24DFD007006BD20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VS6C88CTZ;
+				INFOPLIST_FILE = transitLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = transitLights.example.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A6600BF24DFD007006BD20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VS6C88CTZ;
+				INFOPLIST_FILE = transitLights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = transitLights.example.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A6600C124DFD007006BD20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VS6C88CTZ;
+				INFOPLIST_FILE = transitLightsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lights.example.com.transitLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transitLights.app/transitLights";
+			};
+			name = Debug;
+		};
+		0A6600C224DFD007006BD20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VS6C88CTZ;
+				INFOPLIST_FILE = transitLightsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lights.example.com.transitLightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/transitLights.app/transitLights";
+			};
+			name = Release;
+		};
+		0A6600C424DFD007006BD20F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VS6C88CTZ;
+				INFOPLIST_FILE = transitLightsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lights.example.com.transitLightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = transitLights;
+			};
+			name = Debug;
+		};
+		0A6600C524DFD007006BD20F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7VS6C88CTZ;
+				INFOPLIST_FILE = transitLightsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lights.example.com.transitLightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = transitLights;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A66008E24DFD005006BD20F /* Build configuration list for PBXProject "transitLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6600BB24DFD007006BD20F /* Debug */,
+				0A6600BC24DFD007006BD20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6600BD24DFD007006BD20F /* Build configuration list for PBXNativeTarget "transitLights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6600BE24DFD007006BD20F /* Debug */,
+				0A6600BF24DFD007006BD20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6600C024DFD007006BD20F /* Build configuration list for PBXNativeTarget "transitLightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6600C124DFD007006BD20F /* Debug */,
+				0A6600C224DFD007006BD20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6600C324DFD007006BD20F /* Build configuration list for PBXNativeTarget "transitLightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6600C424DFD007006BD20F /* Debug */,
+				0A6600C524DFD007006BD20F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A66008B24DFD005006BD20F /* Project object */;
+}
